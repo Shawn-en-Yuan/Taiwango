@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台灣走走-探索景點</title>
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="css/all.css">
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+   
+</head>
+<body>
+<header class="d-flex justify-content-space-between mb-3">
+    <a class="fs-4 color-primary fw-medium" href="index.html">
+        <span class="material-icons fs-5">hiking</span>
+        台灣走走•Tai Walk
+    </a>
+    <nav class="d-flex">
+        <a class="color-light fs-6" href="#">探索景點</a>
+        <a class="color-light fs-6" href="#">節慶活動</a>
+        <a class="color-light fs-6" href="#">品嚐美食</a>
+    </nav>
+</header>
+
+<!-- 麵包屑 breadcrumb-->
+<div class="container breadcrumb">
+    <ul class="d-flex mb-3">
+        <li><a class="color-primary" href="index.html">首頁</a></li>
+        <li><a class="color-light" href="#">探索景點</a></li>
+    </ul>
+</div>
+
+<div class="search text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <select class="color-primary" name="attractions" id="attractions">
+                    <option value="">全部縣市</option>
+                    <option value="">台北市</option>
+                    <option value="">新北市</option>
+                    <option value="">新北市</option>
+                    <option value="">新北市</option>
+                    <option value="">新北市</option>
+                    <option value="">新北市</option>
+                </select>
+            </div>
+            <div class="col-12 col-md-6">
+                <input class="search-bar" type="text" name="search-bar" id="search-bar" placeholder="你想去哪裡？請輸入關鍵字">
+            </div>
+            <div class="col-12 col-md-3">
+                <button class="fw-bold color-white">
+                    <span class="material-icons vertical-align-bottom">search</span> 搜尋
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mb-1">
+    <div class="row">
+        <div class="col-12 mb-5">
+            <h1 class="fs-2 fw-light">熱門主題</h1>
+        </div>
+        <div class="col-6 col-md-3 mb-5">
+            <div class="hot-topic">
+                <a href="#">
+                    <h2 class="fs-4 fw-bold color-white">自然風景類</h2>
+                    <figure><img src="images/topic-1.jpg" alt=""></figure>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-3 mb-5">
+            <div class="hot-topic">
+                <a  href="#">
+                    <h2 class="fs-4 fw-bold color-white">觀光工廠類</h2>
+                    <figure><img src="images/topic-2.jpg" alt=""></figure>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-3 mb-5">
+            <div class="hot-topic">
+                <a  href="#">
+                    <h2 class="fs-4 fw-bold color-white">遊憩類</h2>
+                    <figure><img src="images/topic-3.jpg" alt=""></figure>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-3 mb-5">
+            <div class="hot-topic">
+                <a  href="#">
+                    <h2 class="fs-4 fw-bold color-white">休閒農業類</h2>
+                    <figure><img src="images/topic-4.jpg" alt=""></figure>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-3 mb-5">
+            <div class="hot-topic">
+                <a  href="#">
+                    <h2 class="fs-4 fw-bold color-white">生態類</h2>
+                    <figure><img src="images/topic-5.jpg" alt=""></figure>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-3 mb-5">
+            <div class="hot-topic">
+                <a  href="#">
+                    <h2 class="fs-4 fw-bold color-white">溫泉類</h2>
+                    <figure><img src="images/topic-6.jpg" alt=""></figure>
+                </a>
+            </div>
+        </div>
+        <div class="col-6 col-md-3 mb-5">
+            <div class="hot-topic">
+                <a  href="#">
+                    <h2 class="fs-4 fw-bold color-white">古蹟類</h2>
+                    <figure><img src="images/topic-7.jpg" alt=""></figure>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<footer class="color-white d-flex justify-content-center">
+    <p>#The F2E 3rd Week01 #Breakfast  </p>
+</footer>
+
+<!-- swiper套件js -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1.5,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+</script>
+</body>
+</html>

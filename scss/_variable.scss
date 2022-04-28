@@ -1,0 +1,94 @@
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+//heme-color-variables
+
+$primary:       #6e7d60 !default;
+$secondary:     #7f997b !default;
+$success:       #BEA363 !default;
+//$info:          $cyan !default;
+$warning:       #FF725E!default;
+//$danger:        $red !default;
+$light:         #646464 !default;
+$dark:          #2f2f2f !default;
+$black:         #1e1e1e!default;
+$white:         #ffffff !default;
+
+.color-primary{
+    color:$primary;
+    
+}
+.color-secondary{
+    color:$secondary;
+}
+.color-success{
+    color:$success;
+}
+.color-warning{
+    color:$warning;
+}
+.color-light{
+    color:$light;
+}
+.color-dark{
+    color:$dark;
+}
+.color-black{
+    color:$black;
+}
+.color-white{
+    color:$white;
+}
+
+//font-size
+.fs-1{
+    font-size: 48px;
+}
+.fs-2{
+    font-size: 36px;
+}
+.fs-3{
+    font-size: 28px;
+}
+.fs-4{
+    font-size: 22px;
+}
+.fs-5{
+    font-size: 20px;
+}
+.fs-6{
+    font-size: 18px;
+}
+@media screen and (max-width:768px){
+    .fs-1{
+        font-size: 36px;
+    }
+    .fs-2{
+        font-size: 28px;
+    }
+    .fs-3{
+        font-size: 22px;
+    }
+    .fs-4{
+        font-size: 20px;
+    }
+    .fs-5{
+        font-size: 16px;
+    }
+    .fs-6{
+        font-size: 16px;
+    }
+}
+
+//font-weight
+.fw-bold{
+    font-weight: 700 ;
+}
+.fw-medium{
+    font-weight:500 ;
+}
+.fw-light{
+    font-weight: 300 ;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台灣走走-探索景點</title>
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="css/all.css">
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+   
+</head>
+<body>
+<header class="d-flex justify-content-space-between mb-3">
+    <a class="fs-4 color-primary fw-medium" href="index.html">
+        <span class="material-icons fs-5">hiking</span>
+        台灣走走•Tai Walk
+    </a>
+    <nav class="d-flex">
+        <a class="color-light fs-6" href="#">探索景點</a>
+        <a class="color-light fs-6" href="#">節慶活動</a>
+        <a class="color-light fs-6" href="#">品嚐美食</a>
+    </nav>
+</header>
+
+<!-- 麵包屑 breadcrumb-->
+<div class="container breadcrumb">
+    <ul class="d-flex mb-3">
+        <li><a class="color-primary" href="index.html">首頁</a></li>
+        <li><a class="color-light" href="#">探索景點</a></li>
+    </ul>
+</div>
+
+<div class="container d-flex justify-content-space-between align-items-center mb-5">
+    <h2 class="fs-2 color-black fw-light">搜尋結果
+        <span class="fs-5">共有<span class="color-warning">0</span>筆</span>
+    </h2>
+</div>
+
+<div class="search-null mb-1">
+    <img src="images/search-null.png" alt="">
+    <p class="color-secondary fs-5">目前查無資料 <br> 請重新搜尋</p>
+</div>
+
+
+<footer class="color-white d-flex justify-content-center">
+    <p>#The F2E 3rd Week01 #Breakfast  </p>
+</footer>
+
+<!-- swiper套件js -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1.5,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+</script>
+</body>
+</html>
